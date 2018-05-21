@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static com.example.b17albbe.b17albbe_project.R.id.textContent;
+
 public class PresidentActivity extends AppCompatActivity {
 
 
@@ -30,8 +32,10 @@ public class PresidentActivity extends AppCompatActivity {
         President president=new President(inName,inLocation,inDate,inAchievement,inServed);
         Toast.makeText(getApplicationContext(), president.info() , Toast.LENGTH_LONG).show();
         TextView textID = (TextView)findViewById(R.id.textID);
+        TextView textContent = (TextView)findViewById(R.id.textContent);
 
         textID.setText(president.toString());
+        textContent.setText(president.info());
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
