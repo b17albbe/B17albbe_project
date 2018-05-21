@@ -30,7 +30,8 @@ public class PresidentActivity extends AppCompatActivity {
         President president=new President(inName,inLocation,inDate,inAchievement,inServed);
         Toast.makeText(getApplicationContext(), president.info() , Toast.LENGTH_LONG).show();
         TextView textID = (TextView)findViewById(R.id.textID);
-        //textID.setText(getApplicationContext(), president.info());
+
+        textID.setText(president.toString());
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
