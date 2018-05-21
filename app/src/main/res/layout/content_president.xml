@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:textSize="26dp"
+                android:textSize="30sp"
                 android:text="TextView" />
 
             <TextView
@@ -42,8 +42,8 @@
                 android:layout_height="81dp"
                 android:layout_weight="1"
                 android:text="TextContent"
-                android:textSize="16dp"
-                android:layout_margin="20dp"
+                android:textSize="18sp"
+                android:layout_margin="16dp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="28dp" />
         </LinearLayout>
