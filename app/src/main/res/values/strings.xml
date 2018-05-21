@@ -5,5 +5,6 @@
     <string name="title_activity_president">PresidentActivity</string>
     <string name="title_activity_about">AboutActivity</string>
     <string name="about">This app features in-depth knowledge about several presidents, giving you the user, information on the fly.
-        This app has been tailored for people who</string>
+        This app has been tailored for people who have an interest in history, and who needs a quick and easy way to get information about any chosen president.
+        The approach is a clean and simple layout, designed to make it more simple for users who wants a fast and user friendly interaction, and nothing less.</string>
 </resources>

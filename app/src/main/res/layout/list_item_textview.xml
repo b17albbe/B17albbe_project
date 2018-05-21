@@ -5,7 +5,7 @@
     android:textSize="20sp"
     android:paddingBottom="10dp"
     android:paddingTop="10dp"
-
+    android:textColor="@android:color/black"
     android:id="@+id/my_item_textview">
 
 </TextView>
