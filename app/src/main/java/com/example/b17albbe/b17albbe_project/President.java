@@ -49,8 +49,11 @@ public class President {
         str+=birthLocation;
         str+=" on ";
         str+=birthDate;
+        str+=". ";
         str+=achievement;
+        str+=". ";
         str+=served;
+        str+=". ";
         return str;
     }
 

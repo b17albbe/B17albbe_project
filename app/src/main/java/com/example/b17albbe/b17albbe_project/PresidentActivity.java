@@ -30,7 +30,7 @@ public class PresidentActivity extends AppCompatActivity {
         String inServed = intent.getStringExtra("SERVED");
 
         President president=new President(inName,inLocation,inDate,inAchievement,inServed);
-        Toast.makeText(getApplicationContext(), president.info() , Toast.LENGTH_LONG).show();
+
         TextView textID = (TextView)findViewById(R.id.textID);
         TextView textContent = (TextView)findViewById(R.id.textContent);
 
