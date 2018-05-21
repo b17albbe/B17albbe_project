@@ -1,10 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.b17albbe.b17albbe_project.MainActivity">
+
+    xmlns:tools="https://schemas.android.com/tools"
+    tools:context="com.example.brom.brom_asynctask.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_about"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="About"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="10"
+        android:title="@string/action_refresh"
+        app:showAsAction="never" />
+
 </menu>
